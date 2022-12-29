@@ -4,7 +4,7 @@ import { stats } from "../../utils/data";
 
 export default function Stats() {
   return (
-    <div className="mx-8 rounded-[20px] bg-tosca py-8 px-2 lg:mx-[100px] lg:p-[46px]">
+    <div className="rounded-[20px] bg-tosca py-8 px-2 lg:p-[46px]">
       <div className="flex flex-wrap gap-y-14 lg:gap-y-[30px]">
         {stats.map((item, idx) => {
           return (

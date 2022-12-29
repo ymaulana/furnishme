@@ -1,4 +1,5 @@
 import { Header, Hero, Features } from "./components";
+import { NewItems } from "./components/NewItems";
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <Header />
       <Hero />
       <Features />
+      <NewItems />
     </div>
   );
 }

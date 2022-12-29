@@ -2,6 +2,12 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: "1.5rem",
+        // lg: '3rem',
+      },
+    },
     extend: {
       colors: {
         primary: "#27272B",

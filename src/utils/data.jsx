@@ -78,7 +78,7 @@ export const stats = [
 ];
 
 export const features = {
-  image: `${Features1Img}`,
+  image: <Features1Img />,
   // image: <Features1Img />,
   title: "We Create your home more aesthetic",
   subtitle:
@@ -86,20 +86,20 @@ export const features = {
   buttonText: "Show Now",
   items: [
     {
-      icon: `${IoIosCheckmarkCircle}`,
+      icon: <IoIosCheckmarkCircle />,
       title: "Valuation Services",
       subtitle:
         "Sometimes features require a short description.  This can be detailed description",
     },
     {
-      icon: `${IoIosCheckmarkCircle}`,
+      icon: <IoIosCheckmarkCircle />,
       title: "Development of Furniture Models",
       subtitle:
         "Sometimes features require a short description.  This can be detailed description",
     },
   ],
   feature2: {
-    image: `${Features2Img}`,
+    image: <Features2Img />,
     title: "The Best Furniture Manufacturer of your choice",
     subtitle:
       "Furnitre power is a software as services for multiperpose business management system, expecially for them who are running two or more business exploree the future Furnitre power is a software as services.",
@@ -110,23 +110,23 @@ export const newInStore = {
   title: "New In Store Now",
   subtitle: "Get the latest items immediately with promo prices",
   link: "Check all",
-  icon: `${IoIosArrowRoundForward}`,
+  icon: <IoIosArrowRoundForward />,
   products: [
     {
       name: "chair",
-      image: `${ChairImg}`,
+      image: <ChairImg />,
     },
     {
       name: "bed",
-      image: `${BedImg}`,
+      image: <BedImg />,
     },
     {
       name: "cupboard",
-      image: `${CupboardImg}`,
+      image: <CupboardImg />,
     },
     {
       name: "lighting",
-      image: `${LightingImg}`,
+      image: <LightingImg />,
     },
   ],
 };
@@ -139,71 +139,71 @@ export const products = {
     {
       productList: [
         {
-          image: `${Product1Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product1Img />,
+          icon: <IoMdAddCircle />,
           name: "Ceiling Light",
           price: 75,
           oldPrice: 82,
         },
         {
-          image: `${Product2Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product2Img />,
+          icon: <IoMdAddCircle />,
           name: "Wood Chair",
           price: 50,
           oldPrice: 70,
         },
         {
-          image: `${Product3Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product3Img />,
+          icon: <IoMdAddCircle />,
           name: "Papper Cupboard",
           price: 105,
           oldPrice: 120,
         },
         {
-          image: `${Product4Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product4Img />,
+          icon: <IoMdAddCircle />,
           name: "Ole Gundorse Spring",
           price: 75,
           oldPrice: 82,
         },
         {
-          image: `${Product5Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product5Img />,
+          icon: <IoMdAddCircle />,
           name: "Treos Seroes 911",
           price: 200,
           oldPrice: 210,
         },
         {
-          image: `${Product6Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product6Img />,
+          icon: <IoMdAddCircle />,
           name: "Multi bilderman slibber",
           price: 45,
           oldPrice: 50,
         },
         {
-          image: `${Product7Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product7Img />,
+          icon: <IoMdAddCircle />,
           name: "XORA corner desk",
           price: 320,
           oldPrice: 325,
         },
         {
-          image: `${Product8Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product8Img />,
+          icon: <IoMdAddCircle />,
           name: "Black Forest Series Wood",
           price: 225,
           oldPrice: 240,
         },
         {
-          image: `${Product9Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product9Img />,
+          icon: <IoMdAddCircle />,
           name: "Papper Cupboard",
           price: 105,
           oldPrice: 120,
         },
         {
-          image: `${Product10Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product10Img />,
+          icon: <IoMdAddCircle />,
           name: "Ole Gundorse Spring",
           price: 75,
           oldPrice: 82,
@@ -213,71 +213,71 @@ export const products = {
     {
       productList: [
         {
-          image: `${Product1Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product1Img />,
+          icon: <IoMdAddCircle />,
           name: "Ceiling Light",
           price: 75,
           oldPrice: 82,
         },
         {
-          image: `${Product2Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product2Img />,
+          icon: <IoMdAddCircle />,
           name: "Wood Chair",
           price: 50,
           oldPrice: 70,
         },
         {
-          image: `${Product3Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product3Img />,
+          icon: <IoMdAddCircle />,
           name: "Papper Cupboard",
           price: 105,
           oldPrice: 120,
         },
         {
-          image: `${Product4Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product4Img />,
+          icon: <IoMdAddCircle />,
           name: "Ole Gundorse Spring",
           price: 75,
           oldPrice: 82,
         },
         {
-          image: `${Product5Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product5Img />,
+          icon: <IoMdAddCircle />,
           name: "Treos Seroes 911",
           price: 200,
           oldPrice: 210,
         },
         {
-          image: `${Product6Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product6Img />,
+          icon: <IoMdAddCircle />,
           name: "Multi bilderman slibber",
           price: 45,
           oldPrice: 50,
         },
         {
-          image: `${Product7Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product7Img />,
+          icon: <IoMdAddCircle />,
           name: "XORA corner desk",
           price: 320,
           oldPrice: 325,
         },
         {
-          image: `${Product8Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product8Img />,
+          icon: <IoMdAddCircle />,
           name: "Black Forest Series Wood",
           price: 225,
           oldPrice: 240,
         },
         {
-          image: `${Product9Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product9Img />,
+          icon: <IoMdAddCircle />,
           name: "Papper Cupboard",
           price: 105,
           oldPrice: 120,
         },
         {
-          image: `${Product10Img}`,
-          icon: `${IoMdAddCircle}`,
+          image: <Product10Img />,
+          icon: <IoMdAddCircle />,
           name: "Ole Gundorse Spring",
           price: 75,
           oldPrice: 82,
@@ -289,24 +289,24 @@ export const products = {
 
 export const testimonial = {
   title: "What people are saying about us",
-  image: `${TestimonialImg}`,
+  image: <TestimonialImg />,
   persons: [
     {
-      avatar: `${Avatar1Img}`,
+      avatar: <Avatar1Img />,
       name: "Josh Smith",
       occupation: "Manager of The New York Times",
       message:
         "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
     },
     {
-      avatar: `${Avatar2Img}`,
+      avatar: <Avatar2Img />,
       name: "Brandi Johns",
       occupation: "Manager of The New York Times",
       message:
         "“They are have a perfect touch for make something so professional ,interest and useful for a lot of people .”",
     },
     {
-      avatar: `${Avatar3Img}`,
+      avatar: <Avatar3Img />,
       name: "Paula Pfeffer",
       occupation: "Manager of The New York Times",
       message:
@@ -325,19 +325,19 @@ export const newsletter = {
 export const footer = {
   social: [
     {
-      icon: `${IoLogoYoutube}`,
+      icon: <IoLogoYoutube />,
       href: "#",
     },
     {
-      icon: `${IoLogoInstagram}`,
+      icon: <IoLogoInstagram />,
       href: "#",
     },
     {
-      icon: `${IoLogoGithub}`,
+      icon: <IoLogoGithub />,
       href: "#",
     },
     {
-      icon: `${IoLogoFacebook}`,
+      icon: <IoLogoFacebook />,
       href: "#",
     },
   ],
